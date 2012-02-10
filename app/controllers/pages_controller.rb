@@ -7,17 +7,21 @@ class PagesController < ApplicationController
   # Home method renders the view corresponding to the action
   # Home action has a corresponding view called home.html.erb
   def home
-  	# Actions
   end
 	
 	# Pricing method
   def pricing
-  	# Actions
+  	@title = "Pricing & Plans"
   end
 
 	# Contact method
   def contact
-  	# Actions
+  	@title = "Contact"
+  end
+  
+  # Services method
+  def services
+  	@title = "Services"
   end
   
 end
